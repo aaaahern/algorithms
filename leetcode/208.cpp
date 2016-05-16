@@ -22,7 +22,7 @@ public:
     Trie() {
         root = new TrieNode('/');
     }
-
+    
     // Inserts a word into the trie.
     void insert(string word) {
         if (word.size() == 0) return;
